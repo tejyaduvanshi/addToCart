@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+
+}
+.cart-toggle {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 16%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.product-list {
+  margin-left: 15%;
+  display: flex;
+  object-position: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.product-card {
+  border: 1px solid #9b9999;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  /* background: #c5bdbd; */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 5px 4px rgba(182, 182, 182, 0.751);
+}
+
+.product-card img {
+  width: 50%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  font-weight: 5px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 15px;
+  font-weight: 38px;
+}
+
+.product-card button {
+  background-color: rgb(60, 60, 227);
+  color: white;
+  margin-top: 5px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.cart {
+  max-width: 1000px;
+  margin: auto;
+  margin-left: 20%;
+}
+
+.cart ul {
+  list-style: none;
+}
+
+.cart li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart img {
+  width: 50px;
+}
+
+.cart button {
+  background-color: rgb(216, 53, 53);
+  color: white;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 10px; */
+
+}
+
+.cart button:hover {
+  background-color: rgb(255, 56, 56);
+}
+
+.cart h3 {
+  text-align: right;
+}
+.nameprice{
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+
